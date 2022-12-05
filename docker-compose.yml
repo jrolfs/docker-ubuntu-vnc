@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  vnc:
+    container_name: vnc
+    build:
+      context: .
+    platform: "linux/amd64"
+    ports:
+      - 2222:2222
+      - 59000-59100:59000-59100
+    tty: true

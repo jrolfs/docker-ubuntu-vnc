@@ -9,8 +9,8 @@
 ### END INIT INFO
 
 XVFB=/usr/bin/Xvfb
-XVFBARGS=":99 -screen 0 1920x1080x24 -ac +extension GLX +render -noreset"
-PIDFILE=/var/run/xvfb.pid
+XVFBARGS=":100 -screen 0 512x342x24 -ac +extension GLX +render -noreset"
+PIDFILE=/var/run/xvfb-2.pid
 case "$1" in
   start)
     echo -n "Starting virtual X frame buffer: Xvfb"
