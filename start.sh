@@ -8,4 +8,4 @@ x11vnc -xkb -noxrecord -noxfixes -noxdamage -display :$1 -forever -bg -rfbauth /
 
 sleep 1
 
-DISPLAY=:$1 ./mini-vmac
+DISPLAY=:$1 ./mini-vmac/mini-vmac-4x
